@@ -4,6 +4,8 @@ My OpenCore EFI folder backup
 **My Clover EFI here**
 [Dell-G3-3579-Hackintosh-Clover](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-Clover)
 
+I'm trying to install macOS Big Sur. Focus [this branch](https://github.com/CerteKim/Dell-G3-3579-3779-Hackintosh-OpenCore/tree/bigsur)
+
 # setup_var by using my grubx64.efi
 ```
 setup_var 0x5BC 0x0 //Disable CFG Lock
