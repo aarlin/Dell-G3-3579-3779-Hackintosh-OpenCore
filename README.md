@@ -6,19 +6,31 @@ My OpenCore EFI folder backup
 
 I'm trying to install macOS Big Sur. Focus [this branch](https://github.com/CerteKim/Dell-G3-3579-3779-Hackintosh-OpenCore/tree/bigsur)
 
-# setup_var by using my grubx64.efi
+# Instructions
+
+## Install gibMacOS and create boot USB
+
+Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html#making-the-installer) to create a USB installer for macOS
+
+## Copy files over
+
+Replace the EFI/OC folder with the one supplied in this repository
+
+## Boot the USB 
+
+Using the BIOS, load the USB
+
+## Setup_var by using my grubx64.efi
+
+Set these variables inside the grub shell
 ```
 setup_var 0x5BC 0x0 //Disable CFG Lock
 setup_var 0x8C9 0x2 //Set DVMT Pre-Allocated to 64M
 ```
 
-# Enable OpenCore boot menu
-Find 
-```
-<key>ShowPicker</key>
-<false/>
-``` 
-change the value to ```true```
+## Load macOS installer
+
+Load the macOS installer and go through the steps to install into a new hard drive partition
 
 # Hardware Configuration
 * i7 8750H 
