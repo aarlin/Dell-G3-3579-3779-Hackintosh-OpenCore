@@ -28,6 +28,8 @@ setup_var 0x5BC 0x0 //Disable CFG Lock
 setup_var 0x8C9 0x2 //Set DVMT Pre-Allocated to 64M
 ```
 
+Exit out of the grub shell
+
 ## Load macOS installer
 
 Load the macOS installer and go through the steps to install into a new hard drive partition
