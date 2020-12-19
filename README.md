@@ -1,8 +1,10 @@
+# EOL
+My Laptop is broken. This repo is End-of-life.
+
 # Dell-G3-3579-Hackintosh-OpenCore
 My OpenCore EFI folder backup
 
-**My Clover EFI here**
-[Dell-G3-3579-Hackintosh-Clover](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-Clover)
+My OpenCore is configured as a "macOS Launcher", I use rEFInd as Boot Menu.
 
 I'm trying to install macOS Big Sur. Focus [this branch](https://github.com/CerteKim/Dell-G3-3579-3779-Hackintosh-OpenCore/tree/bigsur)
 
@@ -35,28 +37,16 @@ Exit out of the grub shell
 Load the macOS installer and go through the steps to install into a new hard drive partition
 
 # Hardware Configuration
-* i7 8750H 
-* UHD630 
-* GTX1060 max-q 
+* i7 8750H
+* UHD630
+* GTX1060 max-q
 * ~~Intel Wireless AC9462~~  Replace with DW1820A
-* ALC236 
-* Intel 600P 
-* Thunderbolt 
+* ALC236
+* ~~Intel 600P~~ Replace with Samsung SM961
+* Thunderbolt
 
 ## Working
-* 10.13.6 ~ 10.15.1 Boot  
-* iGPU  
-* Backlight  
-* Audio (layout=15)  
-* USB Type-c HDMI
-* Trackpad with VoodooI2C  
-* WebCam
-
-## Issue
-Intel 600P cause kernel panic randomly, because IONVMeFamily.kext doesn't natively support my drive.
+Boot Installation Media
 
 ## Not working
 * dGPU (Disabled by SSDT, I will try to make it work on my [another project](https://github.com/CerteKim/Dell-G3-3579-HackintoVM))  
-
-## Unknown
-* Thunderbolt (Still working on fixing SSDT, and needs to be verified)
