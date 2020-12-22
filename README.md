@@ -1,6 +1,3 @@
-# EOL
-My Laptop is broken. This repo is End-of-life.
-
 # Dell-G3-3579-Hackintosh-OpenCore
 My OpenCore EFI folder backup
 
