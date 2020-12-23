@@ -1573,6 +1573,8 @@
 	<dict>
 		<key>Automatic</key>
 		<true/>
+		<key>CustomMemory</key>
+		<false/>
 		<key>DataHub</key>
 		<dict>
 			<key>BoardProduct</key>
@@ -1586,6 +1588,12 @@
 		</dict>
 		<key>Generic</key>
 		<dict>
+			<key>AdviseWindows</key>
+			<false/>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
+			<key>ProcessorType</key>
+			<integer>0</integer>
 			<key>MLB</key>
 			<string>C02807701QXJP4FJC</string>
 			<key>ROM</key>
