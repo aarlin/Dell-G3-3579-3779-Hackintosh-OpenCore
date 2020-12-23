@@ -1814,31 +1814,6 @@
 			<key>UnicodeCollation</key>
 			<false/>
 		</dict>
-		<key>Protocols</key>
-		<dict>
-			<key>AppleBootPolicy</key>
-			<false/>
-			<key>AppleEvent</key>
-			<false/>
-			<key>AppleImageConversion</key>
-			<false/>
-			<key>AppleKeyMap</key>
-			<false/>
-			<key>AppleUserInterfaceTheme</key>
-			<false/>
-			<key>ConsoleControl</key>
-			<true/>
-			<key>DataHub</key>
-			<false/>
-			<key>DeviceProperties</key>
-			<false/>
-			<key>FirmwareVolume</key>
-			<false/>
-			<key>HashServices</key>
-			<false/>
-			<key>UnicodeCollation</key>
-			<false/>
-		</dict>
 		<key>Quirks</key>
 		<dict>
 			<key>DeduplicateBootOrder</key>
@@ -1849,8 +1824,8 @@
 			<true/>
 			<key>ReleaseUsbOwnership</key>
 			<false/>
-			<key>RequestBootVarFallback</key>
-			<false/>
+			<key>RequestBootVarRouting</key>
+			<true/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
