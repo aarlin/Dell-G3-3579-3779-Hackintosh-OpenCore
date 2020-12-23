@@ -134,9 +134,6 @@
 				<data>U1NEVA==</data>
 			</dict>
 		</array>
-		<key>Block</key>
-		<array>
-		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -602,8 +599,6 @@
 			<false/>
 			<key>ProtectUefiServices</key>
 			<false/>
-			<key>ProtectCsmRegion</key>
-			<false/>
 			<key>ProvideCustomSlide</key>
 			<false/>
 			<key>ProvideMaxSlide</key>
@@ -612,8 +607,6 @@
 			<false/>
 			<key>SetupVirtualMap</key>
 			<true/>
-			<key>ShrinkMemoryMap</key>
-			<false/>
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
@@ -681,8 +674,6 @@
 			</dict>
 		</dict>
 		<key>Delete</key>
-		<dict/>
-		<key>Block</key>
 		<dict/>
 	</dict>
 	<key>Kernel</key>
@@ -1183,8 +1174,6 @@
 				<integer>0</integer>
 				<key>Mask</key>
 				<data></data>
-				<key>MatchKernel</key>
-				<string>19.</string>
 				<key>Replace</key>
 				<data>g/s/Dw==</data>
 				<key>ReplaceMask</key>
@@ -1215,8 +1204,6 @@
 				<integer>0</integer>
 				<key>Mask</key>
 				<data></data>
-				<key>MatchKernel</key>
-				<string>19.</string>
 				<key>Replace</key>
 				<data>g/k/Dw==</data>
 				<key>ReplaceMask</key>
@@ -1247,8 +1234,6 @@
 				<integer>0</integer>
 				<key>Mask</key>
 				<data></data>
-				<key>MatchKernel</key>
-				<string>19.</string>
 				<key>Replace</key>
 				<data>SU9LaXM=</data>
 				<key>ReplaceMask</key>
@@ -1279,8 +1264,6 @@
 				<integer>0</integer>
 				<key>Mask</key>
 				<data></data>
-				<key>MatchKernel</key>
-				<string>19.</string>
 				<key>Replace</key>
 				<data>SU9LaXM=</data>
 				<key>ReplaceMask</key>
@@ -1327,8 +1310,6 @@
 			<true/>
 			<key>PowerTimeoutKernelPanic</key>
 			<false/>
-			<key>ThirdPartyTrim</key>
-			<false/>
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
@@ -1344,18 +1325,10 @@
 		<dict>
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
-			<key>ConsoleBehaviourOs</key>
-			<string></string>
-			<key>ConsoleBehaviourUi</key>
-			<string></string>
-			<key>ConsoleMode</key>
-			<string></string>
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideAuxiliary</key>
 			<false/>
-			<key>HideSelf</key>
-			<true/>
 			<key>PickerAttributes</key>
 			<integer>17</integer>
 			<key>PickerAudioAssist</key>
@@ -1364,16 +1337,12 @@
 			<string>Builtin</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
-			<key>Resolution</key>
-			<string>1920x1080</string>
 			<key>ShowPicker</key>
 			<false/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
 			<integer>5</integer>
-			<key>UsePicker</key>
-			<true/>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1423,10 +1392,6 @@
 			<data></data>
 			<key>PasswordSalt</key>
 			<data></data>
-			<key>RequireSignature</key>
-			<false/>
-			<key>RequireVault</key>
-			<false/>
 			<key>ScanPolicy</key>
 			<integer>17760515</integer>
 			<key>SecureBootModel</key>
@@ -1500,8 +1465,6 @@
 				<string>dart=0 -v slide=1 darkwake=8 brcmfx-country=#a</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
-				<key>nvda_drv</key>
-				<data>MQ==</data>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
 				<key>run-efi-updater</key>
@@ -1518,17 +1481,6 @@
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<array>
 				<string>rtc-blacklist</string>
-			</array>
-			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-			<array>
-				<string>boot-args</string>
-			</array>
-		</dict>
-		<key>Block</key>
-		<dict>
-			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-			<array>
-				<string>UIScale</string>
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
