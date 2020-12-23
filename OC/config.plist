@@ -1317,7 +1317,7 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<false/>
+			<true/>
 			<key>ApplePanic</key>
 			<false/>
 			<key>DisableWatchDog</key>
@@ -1331,7 +1331,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
