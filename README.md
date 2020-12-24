@@ -3,8 +3,6 @@ My OpenCore EFI folder backup
 
 My OpenCore is configured as a "macOS Launcher", I use rEFInd as Boot Menu.
 
-I'm trying to install macOS Big Sur. Focus [this branch](https://github.com/CerteKim/Dell-G3-3579-3779-Hackintosh-OpenCore/tree/bigsur)
-
 # Instructions
 
 ## Install gibMacOS and create boot USB
@@ -37,9 +35,8 @@ Load the macOS installer and go through the steps to install into a new hard dri
 * i7 8750H
 * UHD630
 * GTX1060 max-q
-* ~~Intel Wireless AC9462~~  Replace with DW1820A
+* Intel Wireless AC9462 - working with AirportItlwm
 * ALC236
-* ~~Intel 600P~~ Replace with Samsung SM961
 * Thunderbolt
 
 ## Working
@@ -47,3 +44,8 @@ Boot Installation Media
 
 ## Not working
 * dGPU (Disabled by SSDT, I will try to make it work on my [another project](https://github.com/CerteKim/Dell-G3-3579-HackintoVM))  
+
+## TODO
+
+* Fix usb ports to allow D6000 displaylink dock  
+* Remove OpenCanopy
