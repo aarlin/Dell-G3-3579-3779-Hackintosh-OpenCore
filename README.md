@@ -48,4 +48,3 @@ Boot Installation Media
 ## TODO
 
 * Fix usb ports to allow D6000 displaylink dock  
-* Remove OpenCanopy
