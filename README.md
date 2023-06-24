@@ -9,7 +9,7 @@ I'm trying to install macOS Big Sur. Focus [this branch](https://github.com/Cert
 
 ## Install gibMacOS and create boot USB
 
-Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html#making-the-installer) to create a USB installer for macOS
+Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) to create a USB installer for macOS
 
 ## Copy files over
 
