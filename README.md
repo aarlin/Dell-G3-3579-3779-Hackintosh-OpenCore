@@ -3,7 +3,7 @@ My OpenCore EFI folder backup
 
 My OpenCore is configured as a "macOS Launcher", I use rEFInd as Boot Menu.
 
-Using OpenCore version 0.6.9
+Using OpenCore 0.6.9, macOS Big Sur 11.7.8
 
 # Instructions
 
@@ -11,9 +11,9 @@ Using OpenCore version 0.6.9
 
 Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) to create a USB installer for macOS
 
-## Copy files over
-
 Replace the EFI/OC folder with the one supplied in this repository
+
+![image](https://github.com/aarlin/Dell-G3-3579-3779-Hackintosh-OpenCore/assets/5667435/980bfb75-9150-49ea-8db3-4aa8d2fcc57b)
 
 ## Boot the USB 
 Go into BIOS using F2, and change the boot options to use the macOS installer USB
@@ -46,6 +46,12 @@ Load the macOS installer and go through the steps to install into a new hard dri
 * Intel Wireless AC9462
 * ALC236
 * Thunderbolt
+
+* 1 TB NVME M.2 SSD
+   * Windows 10 - 500 GB
+   * Windows 10 - 500 GB
+* 500 GB SSD
+   * macOS Big Sur (rEFInd)
 
 ## Working
 Boot Installation Media
