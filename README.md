@@ -25,7 +25,7 @@ Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-
 ### Boot the USB 
 
 1. Go into BIOS using F2, and change the boot options to use the macOS installer USB
-2. Choose `macOS (External) (dmg)` to start installation
+2. Choose `MACOS (external) (dmg)` to start installation
 
 ### Load macOS installer
 
