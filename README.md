@@ -1,9 +1,14 @@
-# Dell-G3-3579-Hackintosh-OpenCore
-My OpenCore EFI folder backup
+# OpenCore Hackintosh for Dell G3 3579
 
-My OpenCore is configured as a "macOS Launcher", I use rEFInd as Boot Menu.
+[![macOS](https://img.shields.io/badge/macOS-11.2-orange)](https://www.apple.com.cn/macos/big-sur-preview/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.7-9cf)](https://github.com/acidanthera/OpenCorePkg)
+[![license](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
-Using OpenCore 0.6.9, macOS Big Sur 11.7.8
+<img align="right" src="https://support.apple.com/content/dam/edam/applecare/images/en_US/macos/psp-mini-hero-macos-high-sierra-whats-new_2x.png" alt="Critter" width="250">
+
+**macOS Version: 11.7.8**
+
+**OpenCore Version: [0.6.9 Official](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.9)**
 
 # Instructions
 
@@ -40,12 +45,19 @@ Load the macOS installer and go through the steps to install into a new hard dri
 
 
 ## Hardware Configuration
-* i7 8750H
-* UHD630
-* GTX1060 max-q
-* Intel Wireless AC9462
-* ALC236
-* Thunderbolt
+
+| Specifications | Detail | Working |
+| :------------: | :------: | :--------: |
+| Model | Dell G3 3579 | ✅ |
+| Processor | Intel Core i7-8750H @ 2.20Ghz | ✅ |
+| Memory | 8GB Micron DDR4 2666Mhz | ✅ |
+| SSD | Hikvision C2000Pro 512GB | ✅ |
+| HDD | WD10SPZX 1TB | ✅ |
+| iGPU | Intel UHD Graphics 630 | ✅ |
+| dGPU | NVIDIA GeForce GTX 1060 Max-Q 4G | 🚫 |
+| Sound Card | Realtek ALC236 | ✅ |
+| Ethernet Card | Realtek RTL8111 | ✅ |
+| Wireless Card | Intel Wireless-AC 9462 | ✅ |
 
 * 1 TB NVME M.2 SSD
    * Windows 10 - 500 GB
