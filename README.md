@@ -47,7 +47,8 @@ Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-
 8. Find EFI for Microsoft, drag and drop into mounted EFI  
 9. Replace mounted `EFI/OC` with `Post-install OC`, rename to OC
 10. Restart and load into BIOS using F2
-11. Add Boot Sequence option for rEFIND - `\EFI\BOOT\BOOTx64.efi`. Note: This should have `refind.conf` in the same directory
+11. Add Boot Sequence option for rEFInd - `\EFI\BOOT\BOOTx64.efi`.  
+    **Note**: This should have `refind.conf` in the same directory
 
 ![image](https://github.com/aarlin/Dell-G3-3579-3779-Hackintosh-OpenCore/assets/5667435/626fd0a7-e8a0-4eec-b93e-11ec8e9a2b9d)
 
