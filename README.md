@@ -5,9 +5,9 @@
 
 <img align="right" src="https://support.apple.com/content/dam/edam/applecare/images/en_US/macos/psp-mini-hero-macos-high-sierra-whats-new_2x.png" alt="Critter" width="250">
 
-# Instructions
+## Instructions
 
-## Create MacOS USB boot device
+### Create MacOS USB boot device
 
 Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) to create a USB installer for macOS
 
@@ -15,14 +15,14 @@ Replace the EFI/OC folder with the one supplied in this repository
 
 ![image](https://github.com/aarlin/Dell-G3-3579-3779-Hackintosh-OpenCore/assets/5667435/980bfb75-9150-49ea-8db3-4aa8d2fcc57b)
 
-## Boot the USB 
+### Boot the USB 
 Go into BIOS using F2, and change the boot options to use the macOS installer USB
 
-## Load macOS installer
+### Load macOS installer
 
 Load the macOS installer and go through the steps to install into a new hard drive partition
 
-## Post Installation Steps
+### Post Installation Steps
 
 1. Download mountEFI: https://github.com/corpnewt/MountEFI
    ```bash
