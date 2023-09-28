@@ -11,16 +11,26 @@
 
 Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) to create a USB installer for macOS
 
-Replace the EFI/OC folder with the one supplied in this repository
+1. Create a FAT-32 USB partition  
+2. Clone the repository for OpenCorePkg  
+   ```bash
+   git clone git@github.com:acidanthera/OpenCorePkg.git
+   cd OpenCorePkg/Utilities/macrecovery
+   ```
+3. Download the recovery image for Big Sur - `python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`  
+4. Replace the `EFI` folder with the one supplied in this repository  
 
 ![image](https://github.com/aarlin/Dell-G3-3579-3779-Hackintosh-OpenCore/assets/5667435/980bfb75-9150-49ea-8db3-4aa8d2fcc57b)
 
 ### Boot the USB 
-Go into BIOS using F2, and change the boot options to use the macOS installer USB
+
+1. Go into BIOS using F2, and change the boot options to use the macOS installer USB
+2. Choose `macOS (External) (dmg)` to start installation
 
 ### Load macOS installer
 
-Load the macOS installer and go through the steps to install into a new hard drive partition
+1. Partition a new hard drive using Disk Utility for APFS
+2. Install Big Sur
 
 ### Post Installation Steps
 
@@ -47,8 +57,8 @@ Load the macOS installer and go through the steps to install into a new hard dri
 | Model | Dell G3 3579 | ✅ |
 | Processor | Intel Core i7-8750H @ 2.20Ghz | ✅ |
 | Memory | 8GB Micron DDR4 2666Mhz | ✅ |
-| SSD | Hikvision C2000Pro 512GB | ✅ |
-| HDD | WD10SPZX 1TB | ✅ |
+| NVME SSD | HP SSD EX920 1TB | ✅ |
+| SSD | Samsung SSD 860 EVO 500GB | ✅ |
 | iGPU | Intel UHD Graphics 630 | ✅ |
 | dGPU | NVIDIA GeForce GTX 1060 Max-Q 4G | 🚫 |
 | Sound Card | Realtek ALC236 | ✅ |
