@@ -24,7 +24,7 @@ Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-
 
 ### Boot the USB 
 
-1. Go into BIOS using F2, and change the boot options to use the macOS installer USB
+1. Go into BIOS using F2, and change the Boot Sequence to use the macOS installer USB
 2. Choose `MACOS (external) (dmg)` to start installation
 
 ### Load macOS installer
@@ -46,6 +46,8 @@ Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-
 7. Replace mounted `EFI/Boot` folder with this: https://github.com/chriswayg/hackintosh-opencore/blob/master/rEFInd-BOOT-folder.zip  
 8. Find EFI for Microsoft, drag and drop into mounted EFI  
 9. Replace mounted `EFI/OC` with `Post-install OC`, rename to OC
+10. Restart and load into BIOS using F2
+11. Add Boot Sequence option for rEFIND - `\EFI\BOOT\BOOTx64.efi`. Note: This should have `refind.conf` in the same directory
 
 ![image](https://github.com/aarlin/Dell-G3-3579-3779-Hackintosh-OpenCore/assets/5667435/626fd0a7-e8a0-4eec-b93e-11ec8e9a2b9d)
 
