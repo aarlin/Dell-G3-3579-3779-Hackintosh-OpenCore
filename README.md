@@ -67,7 +67,7 @@ Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-
 | :------------: | :------: | :--------: |
 | Model | Dell G3 3579 | ✅ |
 | Processor | Intel Core i7-8750H @ 2.20Ghz | ✅ |
-| Memory | 8GB Micron DDR4 2666Mhz | ✅ |
+| Memory | 16GB TEAMGROUP DDR4 2666Mhz & 4GB SK hynix DDR4 2666Mhz | ✅ |
 | NVME SSD | HP SSD EX920 1TB | ✅ |
 | SSD | Samsung SSD 860 EVO 500GB | ✅ |
 | iGPU | Intel UHD Graphics 630 | ✅ |
