@@ -3,7 +3,7 @@
 [![macOS](https://img.shields.io/badge/macOS-11.7.8-orange)](https://www.apple.com.cn/macos/big-sur-preview/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.9-9cf)](https://github.com/acidanthera/OpenCorePkg)
 
-<img align="right" src="https://support.apple.com/content/dam/edam/applecare/images/en_US/macos/psp-mini-hero-macos-high-sierra-whats-new_2x.png" alt="Critter" width="250">
+<img align="right" src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/48/4b/eb/484beb20-2c97-1f72-cc11-081b82b1f920/ProductPageIcon.png/230x0w.webp" alt="Critter" width="230">
 
 ## Instructions
 
