@@ -15,6 +15,8 @@ Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-
 2. Clone the repository for OpenCorePkg  
    ```bash
    git clone git@github.com:acidanthera/OpenCorePkg.git
+   ```
+   ```bash
    cd OpenCorePkg/Utilities/macrecovery
    ```
 3. Download the recovery image for Big Sur - `python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`  
@@ -37,7 +39,11 @@ Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-
 1. Download MountEFI: https://github.com/corpnewt/MountEFI
    ```bash
    git clone https://github.com/corpnewt/MountEFI
+   ```
+   ```bash
    cd MountEFI
+   ```
+   ```bash
    chmod +x MountEFI.command
    ```
 3. Run `python MountEFI.py`  
@@ -68,10 +74,10 @@ Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-
 | Ethernet Card | Realtek RTL8111 | ✅ |
 | Wireless Card | Intel Wireless-AC 9462 | ✅ |
 
-* 1 TB NVME M.2 SSD
+* HP SSD EX920 1TB
    * Windows 10 - 500 GB
    * Windows 10 - 500 GB
-* 500 GB SSD
+* Samsung SSD 860 EVO 500GB
    * macOS Big Sur (rEFInd)
 
 ## Edit config.plist
