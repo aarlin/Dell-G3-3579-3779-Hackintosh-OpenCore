@@ -53,7 +53,7 @@ Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-
 7. Replace mounted `EFI/Boot` folder with this:  
    `https://github.com/chriswayg/hackintosh-opencore/blob/master/rEFInd-BOOT-folder.zip`
 10. Find EFI for Microsoft, drag and drop into mounted EFI  
-11. Replace mounted `EFI/OC` with `Post-install OC`, rename to OC
+11. Replace mounted `EFI/OC` with `Post-install-OC`, rename to `OC`
 12. Restart and load into BIOS using F2
 13. Add Boot Sequence option for rEFInd - `\EFI\BOOT\BOOTx64.efi`.  
     **Note**: This should have `refind.conf` in the same directory
