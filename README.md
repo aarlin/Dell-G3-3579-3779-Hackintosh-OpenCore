@@ -19,8 +19,9 @@ Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-
    ```bash
    cd OpenCorePkg/Utilities/macrecovery
    ```
-3. Download the recovery image for Big Sur - `python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`  
-4. Replace the `EFI` folder with the one supplied in this repository  
+3. Download the recovery image for Big Sur  
+   `python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`  
+5. Replace the `EFI` folder with the one supplied in this repository  
 
 ![image](https://github.com/aarlin/Dell-G3-3579-3779-Hackintosh-OpenCore/assets/5667435/980bfb75-9150-49ea-8db3-4aa8d2fcc57b)
 
@@ -49,11 +50,12 @@ Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-
 3. Run `python MountEFI.py`  
 4. Choose Option B - `(B. Mount the Boot Drive's EFI)`    
 6. Drag and drop EFI from booted USB over to mounted EFI folder  
-7. Replace mounted `EFI/Boot` folder with this: https://github.com/chriswayg/hackintosh-opencore/blob/master/rEFInd-BOOT-folder.zip  
-8. Find EFI for Microsoft, drag and drop into mounted EFI  
-9. Replace mounted `EFI/OC` with `Post-install OC`, rename to OC
-10. Restart and load into BIOS using F2
-11. Add Boot Sequence option for rEFInd - `\EFI\BOOT\BOOTx64.efi`.  
+7. Replace mounted `EFI/Boot` folder with this:  
+   `https://github.com/chriswayg/hackintosh-opencore/blob/master/rEFInd-BOOT-folder.zip`
+10. Find EFI for Microsoft, drag and drop into mounted EFI  
+11. Replace mounted `EFI/OC` with `Post-install OC`, rename to OC
+12. Restart and load into BIOS using F2
+13. Add Boot Sequence option for rEFInd - `\EFI\BOOT\BOOTx64.efi`.  
     **Note**: This should have `refind.conf` in the same directory
 
 ![image](https://github.com/aarlin/Dell-G3-3579-3779-Hackintosh-OpenCore/assets/5667435/626fd0a7-e8a0-4eec-b93e-11ec8e9a2b9d)
@@ -79,10 +81,6 @@ Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-
    * Windows 10 - 500 GB
 * Samsung SSD 860 EVO 500GB
    * macOS Big Sur (rEFInd)
-
-## Edit config.plist
-
-Use https://anyplist.com/#/  
 
 ## Not working
 * dGPU (Disabled by SSDT, I will try to make it work on my [another project](https://github.com/CerteKim/Dell-G3-3579-HackintoVM))  
