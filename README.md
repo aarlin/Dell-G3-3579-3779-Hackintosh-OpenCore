@@ -83,4 +83,5 @@ Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-
    * macOS Big Sur (rEFInd)
 
 ## Not working
-* dGPU (Disabled by SSDT, I will try to make it work on my [another project](https://github.com/CerteKim/Dell-G3-3579-HackintoVM))  
+* dGPU (Disabled by SSDT, I will try to make it work on my [another project](https://github.com/CerteKim/Dell-G3-3579-HackintoVM))
+* SD card reader
